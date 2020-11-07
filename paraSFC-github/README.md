@@ -1,7 +1,7 @@
 
 ## Requirements
--[Ubuntu 16.04.7 LTS]
--[gcc version >= 5.4.0]
+- [Ubuntu 16.04.7 LTS]
+- [gcc version >= 5.4.0]
 
 
 ## Installation of IBM ILOG CPLEX Optimization Studio on Linux 
