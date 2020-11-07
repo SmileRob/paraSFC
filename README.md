@@ -1,5 +1,5 @@
 # paraSFC
-This repository contains codes of several algorithms for SFC deployment, including paraSFC, Greedy, CoordVNF and ILP (Integer Linear Programming)-based algorithm.
+This repository contains the codes of the paper, "On the Effective Parallelization and Near-Optimal Deployment of Service Function Chains", which is currently under review for IEEE Transactions on Parallel and Distributed Systems. The codes include several algorithms for Service Function Chains (SFCs) deployment: paraSFC, Greedy, CoordVNF, and the ILP-based algorithm.
 
 ## 1. Prerequisites
 - Ubuntu 16.04.7 or above.
