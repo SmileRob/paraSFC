@@ -1,14 +1,14 @@
 
-## Requirements
-- Ubuntu 16.04.7 LTS
-- gcc version version >= 5.4.0
-- [cplex studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) version >= 12.09 based on 64-bit Linux platforms. Academics can obtain it via the IBM Academic Initiative.
+## Prerequisites
+- Ubuntu 16.04.7 or above.
+- [CPLEX studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) version >= 12.09 based on 64-bit Linux platforms. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/).
+- GCC 4.6 and above, that supports at least C++11.
 
 
 
 ## Installation of IBM ILOG CPLEX Optimization Studio on Linux 
 
-Download IBM ILOG CPLEX Optimization Studio V12.9.0 or later versions from https://www.ibm.com/support/pages/downloading-ibm-ilog-cplex-optimization-studio-v1290
+Download IBM ILOG CPLEX Optimization Studio V12.9.0 or later versions from https://www.ibm.com/products/software .
 
 IBM ILOG CPLEX Optimization Studio provides the most efficient way of building models for mathematical programming, constraint programming and constraint-based scheduling, in order to tackle complex optimization problems such as planning and scheduling.
 
@@ -22,6 +22,8 @@ Enter the following command to start the installation process:
 
 
 The XXX in the cplex_studioXXX.linux-x86.bin installer stands for the version number.
+
+More information about the installation of cplex studio 12.9 can be found at https://www.ibm.com/support/knowledgecenter/SSSA5P_12.9.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_installing.html
 
 
 # Instructions
