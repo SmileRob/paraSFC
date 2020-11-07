@@ -2,7 +2,7 @@
 
 
 topolist="i2 india35 germany50"
-alglist="parasfc"
+alglist="parasfc greed coordvnf"
 
 g++ -g -std=c++0x -L/opt/ibm/ILOG/CPLEX_Studio129/cplex/lib/x86-64_linux/static_pic -L/opt/ibm/ILOG/CPLEX_Studio129/concert/lib/x86-64_linux/static_pic -I/opt/ibm/ILOG/CPLEX_Studio129/cplex/include -I/opt/ibm/ILOG/CPLEX_Studio129/concert/include src/mapper_cplex.cc -lilocplex -lconcert -lcplex -lm -lpthread -ldl -DIL_STD -o mapper_cplex
 	
@@ -11,7 +11,7 @@ g++ -g -std=c++0x src/mapper_parasfc.cc -o mapper_parasfc
 
 
 ###################### parallelized SFC #######################
-if((0))
+if((1))
 then
 	for i in 100
 	do
@@ -56,8 +56,8 @@ fi
 
 
 ###################### cplex #######################
-
-if((0))
+alglist="cplex"
+if((1))
 then
 	g++ -g -std=c++0x -L/opt/ibm/ILOG/CPLEX_Studio129/cplex/lib/x86-64_linux/static_pic -L/opt/ibm/ILOG/CPLEX_Studio129/concert/lib/x86-64_linux/static_pic -I/opt/ibm/ILOG/CPLEX_Studio129/cplex/include -I/opt/ibm/ILOG/CPLEX_Studio129/concert/include src/mapper_cplex.cc -lilocplex -lconcert -lcplex -lm -lpthread -ldl -DIL_STD -o mapper_cplex
 
