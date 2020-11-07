@@ -1,12 +1,10 @@
 
 ## Prerequisites
 - Ubuntu 16.04.7 or above.
-- [CPLEX studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) version >= 12.09 based on 64-bit Linux platforms. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/).
 - GCC 4.6 and above, that supports at least C++11.
+- [CPLEX studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) version >= 12.09 based on 64-bit Linux platforms. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/).
 
-
-
-## Installation of IBM ILOG CPLEX Optimization Studio on Linux 
+### Installation of IBM ILOG CPLEX Optimization Studio on Linux 
 
 Download IBM ILOG CPLEX Optimization Studio V12.9.0 or later versions from https://www.ibm.com/products/software .
 
@@ -27,26 +25,12 @@ Note: CPLEX Optimizer performed slightly better than [Google OR-tools](https://d
 
 
 
-## compiling the source codes:
+## compile and run
 
 General command:
 ```shell
-g++ -g -std=c++0x src/<algorithm>.cc -o <algorithm>
-```
-<algorithm> can be one of the following options:
-- mapper_parasfc
-- mapper_greed
-- mapper_coordvnf
- 
-Example:
-```shell
-g++ -g -std=c++0x src/mapper_parasfc.cc -o mapper_parasfc
-```
-
-## deploy sequential/parallelized SFC
-General command:
-```shell
-./<algorithm> --topology_file=topo/<topo_name>.topo --middlebox_spec_file=middlebox-spec --traffic_request_file=dataset/request-traffic-<topo_name> --parallel=true --outPath=res/<algorithm>.<topo_name>.paraSFC 
+cd parasfc-github
+./run.sh
 ```
 
 [1]: Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
