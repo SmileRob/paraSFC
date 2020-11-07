@@ -37,5 +37,6 @@ cd parasfc-github
 ./run.sh
 ```
 
+## Reference
 [1]: Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
 
