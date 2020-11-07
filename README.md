@@ -3,7 +3,7 @@ This repository contains codes of several algorithms for SFC deployment, includi
 
 ## 1. Prerequisites
 - Ubuntu 16.04.7 or above.
-- GCC 4.6 and above, that supports at least C++11.
+- GCC 5.4 and above.
 - [IBM ILOG CPLEX Optimization Studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) (version >= 12.09) based on 64-bit Linux platforms.
 
 ## 2. Installation of IBM ILOG CPLEX Optimization Studio on Linux 
