@@ -6,7 +6,7 @@ This repository contains codes of several algorithms for SFC deployment, includi
 - GCC 4.6 and above, that supports at least C++11.
 - [IBM ILOG CPLEX Optimization Studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) (version >= 12.09) based on 64-bit Linux platforms.
 
-### Installation of IBM ILOG CPLEX Optimization Studio on Linux 
+## 2. Installation of IBM ILOG CPLEX Optimization Studio on Linux 
 
 Download IBM ILOG CPLEX Optimization Studio (Version >= 12.9.0) from https://www.ibm.com/products/software. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/).
 
@@ -30,7 +30,7 @@ Note: CPLEX Optimizer performed slightly better than [OR-tools](https://develope
 
 
 
-## 2. Compile and Run
+## 3. Compile and Run
 
 ```shell
 cd parasfc-github
