@@ -23,7 +23,7 @@ Enter the following command to start the installation process:
 
 The XXX in the cplex_studioXXX.linux-x86.bin installer stands for the version number.
 
-More information about the installation of cplex studio 12.9 can be found at https://www.ibm.com/support/knowledgecenter/SSSA5P_12.9.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_installing.html
+More information about the installation of cplex studio 12.9 can be found at [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSSA5P_12.9.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_installing.html)
 
 
 # Instructions
@@ -35,7 +35,10 @@ General command:
 ```shell
 g++ -g -std=c++0x src/<algorithm>.cc -o <algorithm>
 ```
-<algorithm> is mapper_parasfc, mapper_greed or mapper_coordvnf
+<algorithm> can be one of the following options:
+- mapper_parasfc
+- mapper_greed
+- mapper_coordvnf
  
 Example:
 ```shell
