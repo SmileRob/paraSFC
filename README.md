@@ -1,7 +1,7 @@
 # paraSFC
 This repository contains codes of several algorithms for SFC deployment, including paraSFC, Greedy, CoordVNF and ILP (Integer Linear Programming)-based algorithm.
 
-## Prerequisites
+## 1. Prerequisites
 - Ubuntu 16.04.7 or above.
 - GCC 4.6 and above, that supports at least C++11.
 - [IBM ILOG CPLEX Optimization Studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) (version >= 12.09) based on 64-bit Linux platforms.
@@ -30,9 +30,8 @@ Note: CPLEX Optimizer performed slightly better than [OR-tools](https://develope
 
 
 
-## compile and run
+## 2. Compile and Run
 
-General command:
 ```shell
 cd parasfc-github
 ./run.sh
