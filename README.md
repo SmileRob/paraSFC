@@ -9,7 +9,7 @@ This repository contains the codes of the paper, "On the Effective Parallelizati
 
 ## 2. Install IBM ILOG CPLEX
 
-Step 1: Download IBM ILOG CPLEX. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/). The installer is distributed as a .bin file *cplex_studio129.linux-x86.bin*. 129 stands for the version number.
+Step 1: Download IBM ILOG CPLEX. Academics can obtain it via the [IBM Academic Initiative](https://developer.ibm.com/academic/). The installer is distributed as a .bin file *cplex_studio129.linux-x86.bin*.
 
 Step 2: Make sure the .bin file is executable. If necessary, change its permission using the chmod command:
 ``` shell
