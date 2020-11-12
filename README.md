@@ -4,7 +4,7 @@ This repository contains the codes of the paper, "On the Effective Parallelizati
 ## 1. Prerequisites
 - Ubuntu 16.04.7, or above.
 - GCC 5.4, or above.
-- [IBM ILOG CPLEX Optimization Studio](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/) 12.9, for 64-bit Linux.
+- [IBM ILOG CPLEX Optimization Studio 12.9](https://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/), for 64-bit Linux.
 
 
 ## 2. Install IBM ILOG CPLEX
@@ -36,5 +36,5 @@ cd parasfc-github
 Please find the evaluation results in our paper.
 
 ## References
-[1]: Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
+[1] Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
 
