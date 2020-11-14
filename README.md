@@ -23,7 +23,7 @@ Step 3: Enter the following command to start the installation process:
 
 More information about the installation of CPLEX can be found at [IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSSA5P_12.9.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_installing.html).
 
-Comparison to Google [OR-tools](https://developers.google.com/optimization): CPLEX performs slightly better on the classic benchmark, but is absolutely superior on large-scale problems. In fact, CPLEX is able to optimally solve 66% of the large-scale instances, against 29% of OR-tools (quad core). CPLEX in general can be successfully applied to real-world industrial problems [1]. 
+Comparison to Google [OR-tools](https://developers.google.com/optimization): CPLEX performs slightly better on the classic benchmark, but is absolutely superior on large-scale problems. In fact, CPLEX is able to optimally solve 66% of the large-scale instances, against 29% of OR-tools (quad core). CPLEX in general can be successfully applied to real-world industrial problems. [1]
 
 
 ## 3. Compile and Run
