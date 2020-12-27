@@ -37,7 +37,7 @@ Please find the evaluation results in our paper.
 
 ## Acknowledgments
 
-We would like to thank Bari et al. for sharing the source code of the simulations in their VNF orchestration paper [2]. Some of the data structures, IO functions and util functions in this repository are developed based on Bari's implementation.
+We would like to thank Bari et al. for sharing the source code of the simulations in their VNF orchestration paper [2]. Some of the data structures, IO functions and util functions in this repository are developed based on the framework in Bari's implementation.
 
 ## References
 [1] Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
