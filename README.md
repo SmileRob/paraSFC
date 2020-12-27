@@ -35,6 +35,11 @@ cd parasfc-github
 
 Please find the evaluation results in our paper.
 
+## Acknowledgments
+
+We would like to thank Bari et al. for sharing their implementation of NFV orchistration simulation [2].
+The data structures, IO functions and util functions in this  are developed based on Bari's implementation.
+
 ## References
 [1] Col, Giacomo Da and E. Teppan. “Google vs IBM: A Constraint Solving Challenge on the Job-Shop Scheduling Problem.” ArXiv abs/1909.08247 (2019): 259-265.
-
+[2] F. Bari, S. R. Chowdhury, R. Ahmed, R. Boutaba, and O. C. M. B. Duarte, “Orchestrating virtualized network functions,” IEEE Transactions on Network and Service Management, vol. 13, no. 4, pp. 725–739, 2016.
